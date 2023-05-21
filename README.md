@@ -14,10 +14,11 @@
 ### Design
 
 - [ ] Figure out data collection method
+- [ ] Libraries
 - [ ] Implementing machine learning algorithm
 - [ ] Integrate training
 - [ ] Sound/Music Development
-- [ ] Begin with color associations
+- [ ] Begin with color association
 
 ### Implementation
 
