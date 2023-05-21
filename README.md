@@ -1,34 +1,59 @@
 # Awerallusion
 
-## Getting started
+## Checklist
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+### Setup
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- [x] Setup Repo and include license, README, .gitignore
+- [ ] Plan and Design the program outline including but not limited to UML diagrams and algorithms
+- [ ] Begin basic outline in LaTEX
+- [ ] Beginning research for background and design support
+- [ ] Research for data collection
+- [x] main.py started
 
-## Add your files
+### Design
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- [ ] Figure out data collection method
+- [ ] Implementing machine learning algorithm
+- [ ] Integrate training
+- [ ] Sound/Music Development
+- [ ] Begin with color associations
 
-```text
-cd existing_repo
-git remote add origin https://gitlab.cecs.pdx.edu/cgula/awerallusion.git
-git branch -M main
-git push -uf origin main
-```
+### Implementation
 
-## Integrate with your tools
+- [ ] Multi-output random decision forest
+- [ ] Training for ML algorithm
+- [ ] Algorithm to either produce and use and/or just use data from wav files
+- [ ] 'Artistic' graphic output
+- [ ] Scientific graphic output
 
-- [ ] [Set up project integrations](https://gitlab.cecs.pdx.edu/cgula/awerallusion/-/settings/integrations)
+## Basic Algorithm
 
-## Collaborate with your team
+1. Produce sound data
+2. Use sound data (either produced or pre-existing) as input into the ML model
+3. Trained model produces a color association for the sound
+4. Graphic data for the physical properties produced
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+### Data usage plan
+
+#### Visual
+
+- Colors in range from violet [400-440 nm] - red [780 nm]
+- Circle, Triangle, Square
+- Small, medium, large scales
+
+#### Sound
+
+- Frequency
+- Amplitude
+- Duration
+- Timbre
+
+### Additional Features
+
+- Sound to shape produced
+- Sound to size (of shape) produced
+- Sound to location [x, y] (of shape) produced
 
 ## Test and Deploy
 
@@ -41,14 +66,6 @@ Use the built-in continuous integration in GitLab.
 - [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
 ---
-
-## Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 ## Name
 
