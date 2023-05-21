@@ -40,6 +40,7 @@
 #### Visual
 
 - Colors in range from violet [400-440 nm] - red [780 nm]
+- Contrast of specific color
 - Circle, Triangle, Square
 - Small, medium, large scales
 
@@ -49,6 +50,7 @@
 - Amplitude
 - Duration
 - Timbre
+- Octave
 
 ### Additional Features
 
