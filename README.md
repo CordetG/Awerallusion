@@ -6,9 +6,9 @@
 
 - [x] Setup Repo and include license, README, .gitignore
 - [ ] Plan and Design the program outline including but not limited to UML diagrams and algorithms
-- [ ] Begin basic outline in LaTEX
-- [ ] Beginning research for background and design support
-- [ ] Research for data collection
+- [x] Begin basic outline in LaTEX
+- [x] Beginning research for background and design support
+- [x] Research for data collection
 - [x] main.py started
 
 ### Design
@@ -70,12 +70,9 @@ Use the built-in continuous integration in GitLab.
 
 ---
 
-## Name
-
-Choose a self-explaining name for your project.
-
 ## Description
 
+What was built, how it worked, what didn't work, and what lessons were learned.
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
 ## Badges
